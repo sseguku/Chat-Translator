@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/noconnet"
+
+      >
+    <TextView
+        android:id="@+id/no_connection_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:paddingBottom="10sp" 
+        android:layout_marginBottom="5sp"
+        android:textSize="20sp"        
+        android:text="@string/no_connection"/>
+ 
+     <Button
+        android:id="@+id/no_connection_button"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        style="@style/btnStyleBeige"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginBottom="4dp"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"
+        android:layout_below="@+id/no_connection_text"
+        />
+	
+</RelativeLayout>
